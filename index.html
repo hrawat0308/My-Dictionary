@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Dictionary
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&family=Open+Sans+Condensed:wght@300&family=Redressed&display=swap" rel="stylesheet">
+        
+    <script defer src="script.js"></script>
+    </head>
+    <body>
+        <audio id="myAudio">
+            <source type="audio/ogg" class="playAudio" src="">
+        </audio>
+        <div class="container">
+            
+            <div class="search--box">
+                <input type="text" placeholder="search for a word" id="searchedWord">
+                <button class="searchDefinition">&#128269</button>
+            </div>
+            <br>
+            <div id="my">
+                <div class="errorDisplay "></div>
+                <div class="heading "></div><br>
+                <div class="definition "></div><br>
+                <div class="synonym "></div><br>
+                <div class="antonym "></div><br>
+            </div>
+            
+        </div>
+        <!-- <script defer> 
+            var myAudio = document.getElementById("myAudio"); 
+            
+            const  speaker = function(){
+                PlayAudio.play();
+                console.log("clicked");
+            };
+            
+        </script>  -->
+    </body>
+
+</html>
